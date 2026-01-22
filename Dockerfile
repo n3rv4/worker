@@ -1,4 +1,4 @@
-FROM php:8.4-cli-bullseye AS worker_base
+FROM php:8.5-cli AS worker_base
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
         bash \

@@ -40,7 +40,7 @@ jobs:
           provenance: true
           sbom: true
           tags: |
-            n3rv4/worker:1.0.0
+            n3rv4/worker:1.1.0
             n3rv4/worker:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
           cache-from: type=local,src=/tmp/.buildx-cache
